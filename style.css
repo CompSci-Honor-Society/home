@@ -19,9 +19,10 @@ html
             z-index: 9999;
             background-color: #f2d634;
             width: 100%;
+            margin: 100px;
 }
 
 section
 {
-            margin: 100;
+            
 }
