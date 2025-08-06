@@ -10,3 +10,14 @@ html
 {
             background-color: #172438;
 }
+
+.nav-bar
+{
+            position:fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            background-color: midnightblue;
+            width: 100%;
+            box-shadow: 2px 2px 2px gray;
+}
