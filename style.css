@@ -21,9 +21,9 @@ html
             width: 100%;
 }
 
-section
+body
 {
-            
+         padding-top: 100px;   
 }
 
 header
