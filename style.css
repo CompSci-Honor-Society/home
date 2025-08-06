@@ -1,1 +1,6 @@
 /*This is the style shhet that is applied to the html page, make sure to link this sheet to the head of every html page. if you want to edit the style of text make that change here*/
+h1 
+{
+            text-align: center;
+            font-family: Arial;
+}
