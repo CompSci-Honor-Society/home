@@ -23,7 +23,7 @@ html
 
 body
 {
-         padding-top: 100px;   
+         margin-top: 10%;   
 }
 
 header
@@ -34,4 +34,10 @@ header
 #logo
 {
             
+}
+
+marquee
+{
+    font-size: 40px; 
+    background-color: lightblue;
 }
