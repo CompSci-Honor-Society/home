@@ -1,4 +1,4 @@
-/*This is the style shhet that is applied to the html page, make sure to link this sheet to the head of every html page. if you want to edit the style of text make that change here*/
+/*This is the style sheet that is applied to the html page, make sure to link this sheet to the head of every html page. if you want to edit the style of text make that change here*/
 h1 
 {
             text-align: center;
@@ -29,4 +29,9 @@ body
 header
 {
             
+}
+
+#logo
+{
+            webkit-box-shadow: 10px
 }
