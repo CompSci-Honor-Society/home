@@ -19,14 +19,13 @@ html
             z-index: 9999;
             background-color: #f2d634;
             width: 100%;
-            font-size: 15px;
-            padding: 10px;
-            text-align: center;
+            font-size: 30px;
+            padding: 15px;
 }
 
 body
 {
-         margin-top: 15%;
+         margin: 0px;
 }
 
 header
@@ -36,7 +35,7 @@ header
 
 #logo
 {
-            width: 60px;
+            width: 40px;
 }
 
 marquee
