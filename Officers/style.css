@@ -13,6 +13,7 @@ html
 
 .nav-bar
 {
+            display: flex;
             position:fixed;
             top: 0;
             left: 0;
@@ -21,6 +22,7 @@ html
             width: 100%;
             font-size: 30px;
             padding: 15px;
+            align-items: center;
 }
 
 body
