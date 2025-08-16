@@ -21,18 +21,17 @@ html
             background-color: #f2d634;
             width: 100%;
             font-size: 30px;
-            padding: 15px;
             align-items: center;
 }
 
-body
+section
 {
-         margin-top: 100px;
+      margin-top: 200px; 
 }
 
 #logo
 {
-            width: 100px;
+            width: 150px;
 }
 
 marquee
