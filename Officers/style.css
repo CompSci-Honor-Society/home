@@ -43,18 +43,21 @@ marquee
 
 a
 {
-    font-style: bold;
-    font-style: black;
+    font: bold;
+    color: black;
+    text-decoration: none;
 }
 
 a:hover
 {
-    font-style: bold;
-    font-style: #6fa9de;
+    font: bold;
+    color: #6fa9de;
+    text-decoration: none;
 }
 
 a:active
 {
-    font-style: bold;
-    font-style: white;
+    font: bold;
+    color: white;
+    text-decoration: none;
 }
