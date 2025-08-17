@@ -15,7 +15,7 @@ html
 .nav-bar
 {
     display: flex;
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
@@ -53,6 +53,7 @@ a:hover
     font: bold;
     color: #6fa9de;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 a:active
@@ -60,4 +61,40 @@ a:active
     font: bold;
     color: white;
     text-decoration: none;
+}
+
+.footerContainer
+{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+
+@media (max-width: 700px)
+{
+    .navbar a
+    {
+        flex-direction: column;
+    }
+
+    .footerNav ul
+    {
+        flex-direction: column;
+    }
+} 
+
+footer
+{
+    background-color: #f2d634;
+    width: 100%;
+}
+
+.footerNav
+{
+    width: 100%;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
