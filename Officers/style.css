@@ -25,6 +25,14 @@ html
     align-items: center;
 }
 
+.navText ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+
 section
 {
     margin-top: 200px; 
@@ -71,9 +79,9 @@ a:active
 
 @media (max-width: 700px)
 {
-    .navbar a
+    .navText ul
     {
-        display: block;
+        flex-direction: column;
     }
 
     .footerNav ul
@@ -121,4 +129,9 @@ footer
 body
 {
     margin: 0px;
+}
+
+.navText li
+{
+    margin: 20px;
 }
