@@ -15,7 +15,7 @@ html
 .nav-bar
 {
     display: flex;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 9999;
@@ -32,7 +32,7 @@ section
 
 #logo
 {
-    width: 150px;
+    width: 100px;
 }
 
 marquee
@@ -73,7 +73,7 @@ a:active
 {
     .navbar a
     {
-        flex-direction: column;
+        display: block;
     }
 
     .footerNav ul
@@ -93,8 +93,27 @@ footer
     width: 100%;
 }
 
-.footerNav ul{
+.footerNav ul
+{
     display: flex;
     justify-content: center;
     list-style-type: none;
+}
+
+.footerNav li
+{
+    margin: 20px;
+}
+
+.socialIcon
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#footerHeader
+{
+    display: flex;
+    justify-content: center;
 }
