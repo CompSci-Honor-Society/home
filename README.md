@@ -1,7 +1,7 @@
 ## ABOUT
 This is the website repository for Computer Science Honor Society. 
 ## INSTRUCTIONS FOR CONTRIBUTORS
-If you are going to contribute, please create a new branch (forking the repository), then creating a pull request.
+If you are going to contribute, please create a new branch by creating a pull request, and uploading your changes there.
 Have your pull request peer reviewed by a partner or two to check for any database or critical errors. Then edit your pull request 
 with "REVIEWED: @CURATOR @CURATOR2 @CURATOR3". 
 
