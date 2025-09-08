@@ -110,7 +110,7 @@ p a:hover
 
 @media (max-width: 700px)
 {
-    .footerNav ul
+    .navText ul
     {
         flex-direction: column;
     }

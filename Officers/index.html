@@ -3,36 +3,66 @@
  
 <!DOCTYPE html> 
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width",initial-scale="1.0">
     <title>CSHS Club</title>
     <link rel="icon" type="image/x-icon" href="../Images/club_logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
+  </head>
+  <body>
     <header>
       <nav class="nav-bar">
 
-      <a href="../index.html"><img id="logo" src="../Images/club_logo.png"></a>
+      <a href="index.html"><img id="logo" src="../Images/club_logo.png"></a>
+      <div class="navText">
+        <ul>
+          <li><a id="navText" href="../index.html" style="margin: 2%;">Home</a></li>
+          
+          <li><a id="navText" href="../Calendar/index.html" style="margin: 2%;">Calender</a></li>
 
-        <a id="navText" href="../index.html" style="margin: 2%;">Home</a>
-
-        <a id="navText" href="../Calendar/index.html" style="margin: 2%;">Calender</a>
-
-        <a id="navText" href="index.html" style="margin: 2%;">Officers</a>
+          <li><a id="navText" href="../Officers/index.html" style="margin: 2%;">Officers</a></li>
+        </ul>
+      </div>
 
       </nav>  
     </header>
+
 <section>
     <h1>Computer Science Honor Society</h1>
     <marquee scrollamount: 10000000000;> This is the officer page </marquee>
 </section> 
-</body>
 
  <footer>
-    &copy; 2025 Created by CSHS Tech Team
+<div class="footerContainer"> 
+
+  <h3 id="footerNavHeader">Computer Science Honor Society</h3>
+
+<div class="footerNav">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Calendar/index.html">Calender</a></li>
+          <li> <a href="Officers/index.html">Officers</a></li>
+      </ul>
+    </div>  
+
+  <h3 id="socialsHeader" >Socials</h3>
+
+    <div class="socialIcon">
+      <a href="https://www.instagram.com/vvhs.cshonorsociety/" class="fa-brands fa-instagram"><i></i></a>
+    </div>
+    <div class="footerBottom">
+    <img id="logo" src="../Images/club_logo.png">
+    <p style="color:black; font: bold;">Copyright &copy;2025; Designed by CSHS Tech Team</p>
+    </div>
+</div>
  </footer>
+
+</body>
+
+
 
 </html>
 
