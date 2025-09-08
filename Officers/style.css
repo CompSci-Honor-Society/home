@@ -20,6 +20,18 @@ html
     max-width: 100%;
 }
 
+section ul
+{
+    color: #6fa9de;
+    font-size: 20px;
+    font: bold;
+}
+
+section
+{
+    padding: 50px 75px 50px 75px;
+}
+
 .nav-bar
 {
     display: flex;
@@ -98,11 +110,6 @@ p a:hover
 
 @media (max-width: 700px)
 {
-    .navText ul
-    {
-        flex-direction: column;
-    }
-
     .footerNav ul
     {
         flex-direction: column;
@@ -124,26 +131,27 @@ footer
 .footerNav ul
 {
     display: flex;
-    justify-content: center;
     list-style-type: none;
+    flex-direction: column;
 }
 
 .footerNav li
 {
     margin: 20px;
+    display: flex;
 }
 
 .socialIcon
 {
     display: flex;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 #socialsHeader
 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 body
@@ -181,4 +189,9 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+}
+
+#footerNavHeader
+{
+    display:flex
 }
